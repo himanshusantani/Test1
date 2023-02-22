@@ -1,0 +1,63 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+}
+
+.navbar ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.navbar #heading{
+    font-size:xx-large ;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('car.jpg');
+    background-size: 100% 100%;
+}
+
+.home span{
+    background-color: black;
+    color: azure;
+    padding: 5px;
+    opacity: 0.5;
+}
+
+.cards{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.common{
+    width: 22%;
+    height: 300px;
+    
+}
+
+.common img{
+    width: 100%;
+    height: 100%;
+}
+
+.contact{
+    margin-top: 100px;
+    display: flex;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+}
+
+.contact input{
+    width: 90%;
+    padding: 15px;
+}
